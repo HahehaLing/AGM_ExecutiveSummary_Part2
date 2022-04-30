@@ -28,7 +28,7 @@ The product [mapping between Peak and AGM's identifier](https://github.com/Haheh
 
 ## Outline
   - [Customer-specific Analysis](https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/Customer_data_clean.ipynb)
-    - cleaning and cross-examining the Peak's customers to AGM's using Soundex and FuzzyLogic
+    - Cleaning and cross-examining the Peak's customers to AGM's using Soundex and FuzzyLogic
   - [Best Recommendation](https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/Best_Recommendation.ipynb)
     - Meals sold from online delivery (Peak) vs. in-store purchases (AGM)
     - Distance impact on sales
