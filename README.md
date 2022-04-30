@@ -30,7 +30,10 @@ The product [mapping between Peak and AGM's identifier](https://github.com/Haheh
   - [Customer-specific Analysis](https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/Customer_data_clean.ipynb)
     - cleaning and cross-examining the Peak's customers to AGM's using Soundex and FuzzyLogic
   - [Best Recommendation](https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/Best_Recommendation.ipynb)
-
+    - Meals sold from online delivery (Peak) vs. in-store purchases (AGM)
+    - Distance impact on sales
+    - Benefits of staging: quick analysis & recommendation on Peak's data collection process
+    - Benefits of withholding customer list from Peak 
 
 ## Executive Summary
 ![alt text](https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/distance_vs_spending.png)
@@ -57,7 +60,7 @@ From the preliminary analysis with last notebooks' staging tables, AGM can refle
 
 ### Benefit of the current status-quo: Withhold customers list from Peak and Peak's delivery customers
 
-Preliminary analysis done on October 3, 2020's Peak's sales shows that Peak does not deliver to the top 50 most-frequent and the top 50 highest spending in-store AGM customers. This may further strengthen my recommendation in [Notebook] (https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/Customer_data_clean.ipynb) of with-holding our customers information. If these high-value customers are not current Peak's customers and they continue to make the same in-store purchasing patterns, we would be netting a higher profit without cutting 18% commission to Peak. At present, only 40% of our top 50 highest value customers are within the 5 mi radius delivered by Peak, upon learning about the address information for the highest-value customers, Peak may extend their delivery range to 10 mi (average radius from store for 50 most-valuable customers are within 8.3 mi radius) and cut into our profit. 
+Preliminary analysis done on October 3, 2020's Peak's sales shows that Peak does not deliver to the top 50 most-frequent and the top 50 highest spending in-store AGM customers. This may further strengthen my recommendation in [Notebook](https://github.com/HahehaLing/AGM_ExecutiveSummary_Part2/blob/main/Customer_data_clean.ipynb) of with-holding our customers information. If these high-value customers are not current Peak's customers and they continue to make the same in-store purchasing patterns, we would be netting a higher profit without cutting 18% commission to Peak. At present, only 40% of our top 50 highest value customers are within the 5 mi radius delivered by Peak, upon learning about the address information for the highest-value customers, Peak may extend their delivery range to 10 mi (average radius from store for 50 most-valuable customers are within 8.3 mi radius) and cut into our profit. 
 
 At present, the customers Peak is delivering to are middle to lower valued customers in terms of money-spent and number of in-store visits. This customer group would be perfect for using Peak's services and expand growth for AGM as these customers simply don't come to the stores as often or spend as much as our most-valued in-store customers. At the expense of 18% of commission we give to Peak, we are hopefully offering convenience to these middle tier value customers. With time and further data provided as the trials proceed, by word of mouth and maybe more sales from the added convenience of online deliveries, these "middle" tier value customers may shift towards higher tiered customers.
 
